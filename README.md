@@ -4,7 +4,7 @@ This project exists to make sense of some [AppCode](https://www.jetbrains.com/ob
 
 The trick to get it all to work is to follow these steps:
 
-1. Open the Xcode workspace or project in AppCode.
+1. Open the Xcode workspace or project in AppCode (in the case of this project, it's the [iOS/AppCodeExperiment.xcodeproj](iOS/AppCodeExperiment.xcodeproj) file).
 2. Tap the `'Load Gradle Project'` button in the `'Gradle build scripts found'` popup.
 3. Observe the `Task 'wrapper' not found in project ':iOS'.` error message in the Build window.
 4. Navigate to AppCode's Gradle settings (you can get there via AppCode preferences or via the Gradle window).
