@@ -1,0 +1,14 @@
+apply plugin: 'org.openbakery.xcode-plugin'
+
+xcodebuild {
+    configuration = 'Debug'
+    destination {
+        platform = 'iOS Simulator'
+        name = 'iPhone 12'
+        os = '14.3'
+    }
+    scheme = 'AppCodeExperiment'
+    simulator = true
+    target = 'AppCodeExperiment'
+    type = 'iOS'
+}

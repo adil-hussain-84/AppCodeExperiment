@@ -1,2 +1,4 @@
-include ':Android'
 rootProject.name = "AppCodeExperiment"
+
+include ':Android'
+include ':iOS'

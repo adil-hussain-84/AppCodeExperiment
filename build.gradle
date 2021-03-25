@@ -10,6 +10,10 @@ buildscript {
     }
 }
 
+plugins {
+    id "org.openbakery.xcode-plugin" version '0.20.1' apply false
+}
+
 allprojects {
     repositories {
         google()
